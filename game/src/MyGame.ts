@@ -1,6 +1,6 @@
 // MyGame - Example implementation of Game interface
 
-import { Game, GameFramework } from "../framework/index.js";
+import { Game, GameFramework } from "./index.js";
 
 // start using objects
 class MyGame extends Game {
