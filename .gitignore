@@ -1,68 +1,45 @@
-# Prerequisites
-*.d
+# Dependencies
+node_modules/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
 
-# Precompiled Headers
-*.gch
-*.pch
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Linker files
-*.ilk
+# Environment / secrets
+.env
+.env.*
+!.env.example
 
-# Debugger Files
-*.pdb
+# Caches
+.cache/
+.parcel-cache/
+.eslintcache
+.npm/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
+# Test coverage
+coverage/
 
-# Fortran module files
-*.mod
-*.smod
+# Editors / IDEs
+.vscode/
+.idea/
+.vs/
+*.swp
+*.suo
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build directories
-[Bb]uild/
-[Bb]uild-*/
-cmake-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
 # Temporary files
 *.tmp
-*.log
 *.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
